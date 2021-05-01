@@ -89,8 +89,8 @@ export default class BaseParticle {
     this.canvas.ctx.fillStyle = this.color;
     this.canvas.ctx.beginPath();
     this.canvas.ctx.setTransform(
-      Math.cos(this.tiltAngle), // set the x axis to the tilt angle
-      Math.sin(this.tiltAngle),
+      0, // set the x axis to the tilt angle
+      0,
       0,
       1,
       this.x,
